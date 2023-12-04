@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Noto Sans, sans-serif;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  background-repeat: repeat-x;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
