@@ -1,8 +1,6 @@
 import './rabbit.css';
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import { useScroll } from 'react-spring'
-import krolik from './images/krolik2.gif'
 import logo from "./images/logotype.png"
 import docker from "./images/docker.png"
 import port from './images/port.png'
@@ -18,22 +16,6 @@ import arrow2 from './images/arrow.png'
 function Rabbit() {
     const [rightArrow, setRight] = useState(true);
     const [leftArrow, setLeft] = useState(false);
-    /*const scrollRight = () => {
-        let parallax = document.querySelector(".parallax");
-        console.log(progress)
-        setProgress(progress + 1400);
-        parallax.scrollTo(progress, 0);
-        setPage(page + 1);
-        if (page === 7) {
-            setProgress(0);
-        }
-    }
-    const scrollLeft = () => {
-        let parallax = document.querySelector(".parallax");
-        setProgress(progress - 1400);
-        setPage(page - 1);
-        parallax.scrollTo(progress, 0);
-    }*/
 
     const selectedStart = () => {
         let navBar = document.querySelector(".chapter-nav");
