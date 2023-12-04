@@ -1,0 +1,73 @@
+.chapter-nav {
+    position: absolute;
+    top: 0;
+    margin-left: 32%;
+    width: 36%;
+    height: 7%;
+    background-image: url(../images/nav.png);
+    background-position: top;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    z-index: 10;
+    font-family: Impact, fantasy;
+}
+
+.icon {
+    display: inline-block;
+    padding-left: 6%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25%;
+    padding: 4%;
+}
+
+#icon1 {
+    background-image: url(../images/docker.png);
+}
+
+#icon2 {
+    background-image: url(../images/leftAccount.png);
+}
+
+#icon3 {
+    background-image: url(../images/port.png);
+}
+
+#icon4 {
+    background-image: url(../images/access.png);
+}
+
+
+.chapter-nav > a:hover {
+    transform: scale(1.2);
+}
+
+.chapter-nav > a {
+    margin-right: 4%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.5s linear;
+}
+
+p {
+    display: none;
+    position: absolute;
+    top: 70%;
+    font-size: small;
+    text-align: center;
+}
+
+#start {
+   margin-left: 3%;
+}
+
+#lastLayer {
+    padding-right: 5%;
+ }
