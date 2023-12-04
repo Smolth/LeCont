@@ -12,17 +12,6 @@
     }
 }
 
-@keyframes progress {
-    0% {
-        transform: scale(2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-
 @keyframes rabbitRun {
     0% {
         transform: translate(0, 0);
@@ -211,14 +200,6 @@
         scale(1)
     }
 }
-
-.rabbit {
-        margin-top: 30%;
-        position: sticky;
-        animation: 4s rabbitRun linear forwards;
-    }
-
-
     .logo {
         height: 30%;
         margin-left: 80%;
@@ -332,16 +313,6 @@
         font-family: Marker Felt, fantasy;
     }
 
-    #layer2 {
-        background-image: url(./images/layer3.png);
-        background-size: cover;
-    }
-
-    #layer3 {
-        background-image: url(./images/layer4.png);
-        background-size: cover;
-    }
-
     #layer4 {
         background-image: url(./images/layer5.png);
         background-size: cover;
@@ -417,11 +388,6 @@
         color: black;
         margin-top: 2%;
         font-family: Marker Felt, fantasy;
-    }
-
-    #layer9 {
-        background-image: url(./images/layer12.png);
-        background-size: cover;
     }
 
     #layer10 {
@@ -590,141 +556,6 @@
 
     #switch3 {
         margin-left: 80%
-    }
-
-    #cloud1 {
-        background-image: url(./images/1.png);
-        background-size: 20%;
-        background-position: top center;
-    }
-
-    #cloud2 {
-        background-image: url(./images/2.png);
-        background-size: 30%;
-        background-position: top right;
-        top: 10%;
-    }
-
-    #cloud3 {
-        background-image: url(./images/3.png);
-        background-position: right;
-        left: 10%;
-        background-size: 20%;
-    }
-
-    #cloud4 {
-        background-image: url(./images/4.png);
-        background-size: 50%;
-        background-position: bottom;
-        left: 20%;
-        bottom: 5%;
-    }
-
-    #cloud5 {
-        background-image: url(./images/5.png);
-        background-size: 20%;
-        right: 10%;
-        background-position: bottom;
-        bottom: 15%;
-    }
-
-    #cloud6 {
-        background-image: url(./images/6.png);
-        background-size: 30%;
-        background-position: top;
-        top: 20%;
-        right: 20%;
-    }
-
-    #cloud7 {
-        background-image: url(./images/7.png);
-        background-size: 30%;
-        background-position: bottom;
-        bottom: 10%;
-        left: 5%;
-    }
-
-    #cloud8 {
-        background-image: url(./images/8.png);
-        background-size: 30%;
-        left: 30%;
-        background-position: top;
-    }
-
-    #cloud9 {
-        background-image: url(./images/9.png);
-        background-size: 40%;
-        bottom: 12%;
-        left: 20%
-    }
-
-    #cloud10 {
-        background-image: url(./images/10.png);
-        background-size: 40%;
-        top: 12%;
-        left: 25%
-    }
-
-    #cloud11 {
-        background-image: url(./images/11.png);
-        background-size: 40%;
-    }
-
-    #cloud12 {
-        background-image: url(./images/12.png);
-        background-size: 30%;
-        background-position: bottom right;
-    }
-
-    #cloud13 {
-        background-image: url(./images/9.png);
-        background-size: 30%;
-        top: 7%;
-        left: 30%
-    }
-
-    #cloud14 {
-        background-image: url(./images/9.png);
-        background-size: 40%;
-        top: 22%;
-        left: 70%
-    }
-
-    #cloud15 {
-        background-image: url(./images/4.png);
-        background-size: 40%;
-        top: 32%;
-        left: 40%
-    }
-
-    #cloud16 {
-        background-image: url(./images/1.png);
-        background-size: 40%;
-        bottom: 38%;
-        left: 20%;
-        background-position: right;
-    }
-
-    #cloud17 {
-        background-image: url(./images/11.png);
-        background-size: 40%;
-        background-position: right;
-        bottom: 12%;
-    }
-
-    #cloud18 {
-        background-image: url(./images/2.png);
-        background-size: 30%;
-        bottom: 22%;
-        left: 10%
-    }
-
-    #cloud19 {
-        background-image: url(./images/7.png);
-        background-size: 20%;
-        bottom: 8%;
-        right: 5%;
-        background-position: right;
     }
 
     #back1 {
